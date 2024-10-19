@@ -1,0 +1,112 @@
+.main-page {
+    /* background-image: url('../public/home.jpg'); */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.262), rgba(0, 0, 0, 0.832)), url('../public/home.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text {
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.text h4 {
+    color: #c4cccf;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text h1 {
+    color: rgb(253, 255, 255);
+    font-size: 60px;
+    font-family: "Gotham", sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.contact {
+    padding-top: 90px;
+    margin-left: 150px;
+}
+
+.contact h1 {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+}
+.contact p {
+    color: black;
+    line-height: 35px;
+    text-align: justify;
+
+}
+.child{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+   
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.parent h1{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.parent p{
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .main1 {
+        height: 450px;
+        width: 300px;
+        border: solid 2px black;
+        background-color: #dee3e6;
+        border-radius: 20px;
+        margin: 30px;
+    }
+
+    .main1 button {
+
+        margin-left: 90px;
+    }
+
+    .main1 p {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .contact {
+        padding-top: 90px;
+        margin-left: 0px;
+    }
+}
